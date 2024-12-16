@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 0, 85);
+  }
+  
+  .kamal {
+    display: flex;
+    background-color: cyan;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: cyan;
+    padding: 20px;
+  }
+  a:hover {
+    color: rgb(121, 48, 255);
+    background-color: antiquewhite;
+  }
+  
+  .kamal3 {
+    border-radius: 20px;
+    border: 2px solid red;
+    height: 40px;
+    width: auto;
+  }
+  
+  h1 {
+    color: cyan;
+  }
+  
+  #kamal4 {
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    height: auto;
+    width: 600px;
+    justify-content: center;
+  }
+  
+  #kamal6 {
+    justify-content: bottom;
+  }
+  
+  button {
+    color: aqua;
+    border-radius: 10px;
+    background-color: rgb(117, 12, 236);
+  }
+  button:hover {
+    background-color: rgb(212, 0, 255);
+  }
+  
+  div {
+    color: cyan;
+  }
+  
+  #kamal6 {
+    border-radius: 10px;
+  }
+  
+  #kamal5 {
+    background-color: azure;
+    text-align: center;
+  }/*# sourceMappingURL=kamal.css.map */

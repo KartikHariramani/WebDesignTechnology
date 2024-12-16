@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 250px 250px 250px; /* Adjust column widths as needed */
+      grid-template-rows: 250px 250px 250px; /* Adjust row heights as needed */
+      grid-gap: 20px; /* Adjust gap between grid items */
+    }
+
+    .items {
+      background-color: bisque;
+      border: 2px solid blue;
+      padding: 40px;
+      color: rgb(0, 36, 83);
+      font-weight: 500px;
+      font-family: 'Courier New', courier, monospace;
+    }
+
+    body {
+      background-color: rgb(163, 228, 12);
+    }
+
+    h2 {
+      color: rgb(38, 141, 231);
+      text-align: center;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>Grid Layout</h2>
+  <div class="container">
+    <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt quo voluptata dolorum earum possimus fugit deleniti voluptates magnam optio.</div>
+    <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti, ipsam cum a quidem quasi veniam soluta repellat corporis, cupiditate rep.</div>
+    <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore minima voluptate quod quis.</div>
+    </div>
+</body>
+</html>
